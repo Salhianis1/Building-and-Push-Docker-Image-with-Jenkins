@@ -1,5 +1,5 @@
 
-FROM nginx:apline
+FROM nginx:alpine
 
 COPY img.jpg /usr/share/nginx/html
 COPY index.html /usr/share/nginx/html
