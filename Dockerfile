@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy the HTML and CSS files to the appropriate location in the container
-COPY . /usr/share/nginx/html
+COPY ./* /usr/share/nginx/html
 
 # Expose the port that nginx will listen on
-EXPOSE 80
+EXPOSE 8088
